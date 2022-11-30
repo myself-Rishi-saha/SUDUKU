@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class suduku {
 
@@ -59,7 +60,15 @@ public class suduku {
     }
 
     public static void main(String[] args) {
-        // int arr[][]=new int[9][9];
+      /*  Scanner sc = new Scanner(System.in);
+        System.out.println("Enteer the suduku & fill 0 in the empty space :");// comment out this to put customize input
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                arr[i][j] = sc.nextInt();
+            }
+            if (i < arr.length - 1)
+                System.out.println("Enter next row");
+        }*/
         int[][] arr = { { 5, 3, 0, 0, 7, 0, 0, 0, 0 }, { 6, 0, 0, 1, 9, 5, 0, 0, 0 }, { 0, 9, 8, 0, 0, 0, 0, 6, 0 },
                 { 8, 0, 0, 0, 6, 0, 0, 0, 3 }, { 4, 0, 0, 8, 0, 3, 0, 0, 1 }, { 7, 0, 0, 0, 2, 0, 0, 0, 6 },
                 { 0, 6, 0, 0, 0, 0, 2, 8, 0 }, { 0, 0, 0, 4, 1, 9, 0, 0, 5 }, { 0, 0, 0, 0, 0, 0, 0, 7, 9 } };
